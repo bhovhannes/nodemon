@@ -4,7 +4,10 @@ Docker images based on [official Node images](https://hub.docker.com/_/node) wit
 
 ## Image Variants
 
-The `nodemon` image comes in one flavor: 
+The `nodemon` image comes in these flavors: 
+
+### `bhovhannes/nodemon:latest`
+Is based on official `lts` Node image.
 
 ### `bhovhannes/nodemon:lts`
-Is based on official `lts` Node image.
+Is based on official `lts` Node image. Is equal to `latest` tag.
