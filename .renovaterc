@@ -1,4 +1,0 @@
-{
-  "extends": ["config:base", "docker:disableMajor", "docker:pinDigests"],
-  "automerge": true
-}
