@@ -16,5 +16,5 @@ Is equal to `latest` tag.
 ### `bhovhannes/nodemon:lts-slim`
 Is based on official `lts-slim` Node image.
 
-### `bhovhannes/nodemon:lts-alpine`
+### `bhovhannes/nodemon:alpine`
 Is based on official `lts-alpine` Node image.
