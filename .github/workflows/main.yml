@@ -1,0 +1,21 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Update docker images
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  schedule:
+  - cron: "0 2 * * 1-5"
+  pull_request:
+    branches:    
+      - master    
+        
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    name: Update docker images
+    runs-on: [ubuntu-latest]
+    steps:
+      - run: curl --silent --show-error --fail -X POST ${{ secrets.DOCKER_HUB_BUILD_TRIGGER_URL }}
