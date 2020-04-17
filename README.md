@@ -1,5 +1,3 @@
-![Update docker images](https://github.com/bhovhannes/nodemon/workflows/Update%20docker%20images/badge.svg)
-
 # nodemon
 
 Docker images based on [official Node images](https://hub.docker.com/_/node) with [nodemon](https://github.com/remy/nodemon) installed.
